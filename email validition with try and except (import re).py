@@ -6,7 +6,7 @@ def get_user_info():
             name = input("Please enter your name: ")
             
             if not name.isalpha():
-                raise ValueError("Invalid name. Please enter a valid name (only letters).")
+                raise ValueError("Wrong name. Please enter a valid name (only letters).")
             break  
         except ValueError as e:
             print(e)
